@@ -1,0 +1,12 @@
+body{
+    width: 1920px;
+    height: 1080px;
+    border: 2px solid;
+}
+
+header{
+    width: 753px;
+    height: 272px;
+    margin-left: 104px;
+    margin-top: 140px;
+}
