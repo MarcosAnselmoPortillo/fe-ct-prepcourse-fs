@@ -11,7 +11,7 @@ test("Menor de edad", () => {
 });
 
 test("Mayor de edad por un día", () => {
-  const fechaNacimiento = new Date("2003-12-31");
+  const fechaNacimiento = new Date("2006-01-18");
   expect(esMayorDeEdad(fechaNacimiento)).toBe(true);
 });
 
