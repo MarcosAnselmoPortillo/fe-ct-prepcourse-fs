@@ -88,3 +88,18 @@ module.exports = esNumeroEntero;
 //   > 21 |     expect(esNumeroEntero("42")).toBe(false);
 //        |                                  ^
 //     22 |     expect(esNumeroEntero(NaN)).toBe(false);
+
+
+// Solución profe:
+// if (typeof numero !== "number") {
+//   return false;
+//   else if (numero % 1 === 0) {
+//     return true;
+//   else {
+//     return false;
+//   }
+//   }
+// }
+
+// Solución compañeros:
+// retur Number.isInteger(numero);
