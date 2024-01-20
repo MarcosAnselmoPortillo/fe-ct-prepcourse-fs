@@ -12,3 +12,6 @@ function menosQueNoventa(num) {
 // }
 
 module.exports = menosQueNoventa;
+
+// solución pro del profe
+// return num < 90 ? true : false;  

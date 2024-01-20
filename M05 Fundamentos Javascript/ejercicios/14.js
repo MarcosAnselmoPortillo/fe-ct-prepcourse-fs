@@ -3,7 +3,7 @@ function tienenMismaLongitud(str1, str2) {
   // Retorna true si los dos strings tienen la misma longitud.
   // De lo contrario, retorna false.
   // Tu código:
-  return (str1.length === str2.length);
+  return (str1.length === str2.length); //como mejora, se puede escribir sin paréntesis.
 }
 
 // function tienenMismaLongitud(str1, str2) {
