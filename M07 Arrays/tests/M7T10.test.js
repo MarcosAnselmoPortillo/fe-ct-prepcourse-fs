@@ -9,8 +9,8 @@ test('encuentra el índice del número más grande en un array', () => {
   expect(encontrarIndiceMayor([-1, -3, -2, -5, -4])).toBe(0);
 });
 
-test('devuelve 0 para un array vacío', () => {
-  expect(encontrarIndiceMayor([])).toBe(0);
+test('devuelve -1 para un array vacío', () => {
+  expect(encontrarIndiceMayor([])).toBe(-1);
 });
 
 test('devuelve 0 para un array con un solo elemento', () => {
